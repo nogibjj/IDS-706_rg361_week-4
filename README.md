@@ -8,6 +8,8 @@ This repo contains the python script and notebook in the codes/project_files fol
    1. calculate the descriptive statistics (mean, median and standard deviation)
    2. generate a histogram of the selcted column
 
+``Matrix Testing`` is done to ensure that the code and repository function as expected in different versions of Python.
+
 The codes reads the data from the csv and stores it as a [polars DataFrame](https://pola-rs.github.io/polars/py-polars/html/reference/dataframe/index.html) for the analysis.
 
 **Note** : The script returns the descriptive stats as list and also saves the graph and the stats to a file while the notebook displays them within the notebook
@@ -15,6 +17,15 @@ The codes reads the data from the csv and stores it as a [polars DataFrame](http
 This repo has been created using the [IDS-706_rg361_ind-proj-1](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1) template which was created as Individual Project-1.
 
 Date Created: 2023-09-24
+
+## Matrix Testing
+This repo uses Github Matrix testing to automatically test the code against the following versions of python:
+   1. ``3.7``
+   2. ``3.8``
+   3. ``3.9``
+
+ If the codes work with all the specied versions, the following will be visible in the Matrix Testing workflow in Github actions:
+ ![Matrix Build](resources/success_build.png)
 
 ## Instructions
 
@@ -78,7 +89,7 @@ The notebook can be executed in the virutal environment and the values for the d
    
      
    **Note** -if all the processes run successfully the following output will be visible in github actions:
-   ![Success Build](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1/blob/4ce63c14ebbaf014abea6aeb4cc7888a5ee57f7a/resources/success_build_ind-proj.png)
+   ![Success Build](resources/build.png)
    
 ### 4. Makefile
    contains the instructions and sequences for the processes used in github actions and .devcontainer for creating the virtual environment
@@ -103,7 +114,7 @@ The notebook can be executed in the virutal environment and the values for the d
    4. Non-numeric column selected, lib and main files return error codes
 
 The codes run as expected and pass the test cases:
-![test execution](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1/blob/4ce63c14ebbaf014abea6aeb4cc7888a5ee57f7a/resources/test%20output_ind-proj.png)
+![test execution](resources/test.png)
 
 The following output files are automatically genrated by Github actions and stored in the outputs folder whenever there is a change in the directory:
 
@@ -113,6 +124,6 @@ Visualization:
 
 Sample of summary.md file, actual file can be accessed at this [Link](outputs/summary.md):
 
-![summary output](resources/auto_summary.png)
+![summary output](resources/matrix_test.png)
 
 **Note** : Only the last graph and summary are stored since the test file calls the function multiple times and the function clears the previous output before saving a new one
