@@ -1,8 +1,8 @@
-# Polars Descriptive Statistics Script and Jupyter Notebook
+# Matrix Testing Different Python Versions for Polars Descriptive Statistics Script and Jupyter Notebook
 
-[![Install](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1/actions/workflows/install.yml)  [![Test](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1/actions/workflows/test.yml)  [![Format](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1/actions/workflows/format.yml)  [![Lint](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1/actions/workflows/lint.yml)
+[![Install](https://github.com/nogibjj/IDS-706_rg361_week-4/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_week-4/actions/workflows/install.yml)[![Test](https://github.com/nogibjj/IDS-706_rg361_week-4/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_week-4/actions/workflows/test.yml) [![Format](https://github.com/nogibjj/IDS-706_rg361_week-4/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_week-4/actions/workflows/format.yml)[![Lint](https://github.com/nogibjj/IDS-706_rg361_week-4/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_week-4/actions/workflows/lint.yml)
+[![Matrix Testing](https://github.com/nogibjj/IDS-706_rg361_week-4/actions/workflows/matrix.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_week-4/actions/workflows/matrix.yml)
 
-Please watch the [Youtube Video](https://youtu.be/957Sv1Bmb1Q) for a brief overview and a demo of code execution and Github Actions.
 
 This repo contains the python script and notebook in the codes/project_files folder which perform the following general operations for the **selected column** from the dataset:
    1. calculate the descriptive statistics (mean, median and standard deviation)
@@ -12,9 +12,9 @@ The codes reads the data from the csv and stores it as a [polars DataFrame](http
 
 **Note** : The script returns the descriptive stats as list and also saves the graph and the stats to a file while the notebook displays them within the notebook
 
-This repo has been created using the [IDS-706_rg361_week-3](https://github.com/nogibjj/IDS-706_rg361_week-3) template which was created as week-3 mini-project.
+This repo has been created using the [IDS-706_rg361_ind-proj-1](https://github.com/nogibjj/IDS-706_rg361_ind-proj-1) template which was created as Individual Project-1.
 
-Date Created: 2023-09-16
+Date Created: 2023-09-24
 
 ## Instructions
 
